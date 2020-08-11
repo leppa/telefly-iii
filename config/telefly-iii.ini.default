@@ -1,0 +1,11 @@
+[Bot]
+; Telegram bot token.
+token=
+
+[Persistence]
+; Folder where Telefly III will store its persistence data.
+#data_dir=./config
+
+; Prefix to use for persistence files. The file names will look like
+; `<prefix>_bot_data`, `<prefix>_chat_data`, and `<prefix>_user_data`.
+#filename_prefix=telefly
